@@ -85,23 +85,84 @@ body{
   color: rgb(255, 255, 255);
 }
 
+@media only screen and (max-width:1600px) {
+  html{
+      font-size: 62.5%;
+  }
+}
 @media only screen and (max-width:1500px) {
   html{
       font-size: 62.5%;
   }
 }
+@media only screen and (max-width:1100px) {
+  html{
+      font-size: 57.5%;
+  }
+}
+@media only screen and (max-width:1000px) {
+  html{
+      font-size: 54.5%;
+  }
+}
+@media only screen and (max-width:900px) {
+  html{
+      font-size: 46.5%;
+  }
+}
+@media only screen and (max-width:800px) {
+  html{
+      font-size: 40.5%;
+  }
+}
+@media only screen and (max-width:700px) {
+  html{
+      font-size: 35.5%;
+  }
+}
 @media only screen and (max-width:600px) {
   html{
-      font-size: 42.5%;
+      font-size: 30.5%;
+  }
+}
+@media only screen and (max-width:500px) {
+  html{
+      font-size: 25.5%;
   }
 }
 @media only screen and (max-width:400px) {
   html{
-      font-size: 32.5%;
+      font-size: 20.5%;
   }
 }
 @media only screen and (max-width:300px) {
   html{
-      font-size: 22.5%;
+      font-size: 14.5%;
   }
+}
+
+.outer-circle{
+  height: 12rem;
+  width: 13rem;
+  background-color: #b8babe;
+  /* filter: blur(3px); */
+ 
+  border-radius: 10rem;
+}
+.imagebackground{
+  height: 20rem;
+  width: auto;
+  background: #276C87;
+  /* padding-top: 12rem; */
+}
+.Userimg{
+  padding-top: 4rem;
+}
+.Username{
+  padding-top: 3rem;
+}
+.editbtn
+{ height: 3.4rem;
+  width: 3.4rem;
+  background: linear-gradient(to bottom,#698ba9,#3797af);
 }
